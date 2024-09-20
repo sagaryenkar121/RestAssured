@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T00:41:36 IST" name="GitHub API Testing Suite" finished-at="2024-09-21T00:41:42 IST" duration-ms="5848">
+    <groups>
+    </groups>
+    <test started-at="2024-09-21T00:41:36 IST" name="API Tests" finished-at="2024-09-21T00:41:42 IST" duration-ms="5848">
+      <class name="GitHubAPI.AuthorizationAPITesting">
+        <test-method signature="testGetUserWithValidToken()[pri:0, instance:GitHubAPI.AuthorizationAPITesting@3116c353]" started-at="2024-09-21T00:41:37 IST" name="testGetUserWithValidToken" description="Get user details with valid token" finished-at="2024-09-21T00:41:40 IST" duration-ms="3754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithValidToken -->
+        <test-method signature="testInvalidTokenProvided()[pri:0, instance:GitHubAPI.AuthorizationAPITesting@3116c353]" started-at="2024-09-21T00:41:40 IST" name="testInvalidTokenProvided" description="Get user details with  Invalid Token Provided" finished-at="2024-09-21T00:41:41 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidTokenProvided -->
+        <test-method signature="testNoTokenProvided()[pri:0, instance:GitHubAPI.AuthorizationAPITesting@3116c353]" started-at="2024-09-21T00:41:41 IST" name="testNoTokenProvided" description="Get user details with  No Token Provided" finished-at="2024-09-21T00:41:41 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoTokenProvided -->
+        <test-method signature="testTokenWithoutNecessaryPermissions()[pri:0, instance:GitHubAPI.AuthorizationAPITesting@3116c353]" started-at="2024-09-21T00:41:41 IST" name="testTokenWithoutNecessaryPermissions" description="Get user details with valid  Token Without Necessary Permissions" finished-at="2024-09-21T00:41:42 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTokenWithoutNecessaryPermissions -->
+        <test-method signature="testUpdateUserBioWithValidToken()[pri:0, instance:GitHubAPI.AuthorizationAPITesting@3116c353]" started-at="2024-09-21T00:41:42 IST" name="testUpdateUserBioWithValidToken" description="Update user bio with valid token" finished-at="2024-09-21T00:41:42 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserBioWithValidToken -->
+      </class> <!-- GitHubAPI.AuthorizationAPITesting -->
+    </test> <!-- API Tests -->
+  </suite> <!-- GitHub API Testing Suite -->
+</testng-results>

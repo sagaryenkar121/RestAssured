@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T00:40:15 IST" name="Default suite" finished-at="2024-09-21T00:40:19 IST" duration-ms="4118">
+    <groups>
+    </groups>
+    <test started-at="2024-09-21T00:40:15 IST" name="Default test" finished-at="2024-09-21T00:40:19 IST" duration-ms="4118">
+      <class name="GitHubAPI.AuthorizationAPITesting">
+        <test-method signature="testUpdateUserBioWithValidToken()[pri:0, instance:GitHubAPI.AuthorizationAPITesting@6c2ed0cd]" started-at="2024-09-21T00:40:15 IST" name="testUpdateUserBioWithValidToken" description="Update user bio with valid token" finished-at="2024-09-21T00:40:19 IST" duration-ms="3914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserBioWithValidToken -->
+      </class> <!-- GitHubAPI.AuthorizationAPITesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
